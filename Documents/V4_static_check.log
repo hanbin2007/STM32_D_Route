@@ -1,0 +1,4 @@
+PASS V4: only first/gain/arm constants changed; 160 source/project files unchanged; V3 HEX retained
+Rear-aligned first goal=1050-212/2=944 mm; remaining straights1300; finalnominal250; final-stage arm0
+Arc goals=467.130661/-74.431580 mm; center=196.349541; differential counts=4319.999995 (V2ratio1.125000, V3ratio1.250000)
+Arc speeds=290.247384/-46.247384 mm/s; outer+sync=330.247384<400; after-build programs disabled

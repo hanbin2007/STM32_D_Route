@@ -1,0 +1,7 @@
+A0: V2/V4 diffcounts=3840.000/4320.000, ratio=1.125000; center counts=1000.000/1566.265; center counts/s=621.341/973.185
+A0: V2 D65 and V4 D41.5 changed center count travel/rate by56.63%; not gain-only comparable. Keep V4 single-point90/115 correction under approved branch.
+A1: sync modifies nonnegative outer magnitude before signed goal/longest scaling; right command keeps negative sign.
+PASS V5: only TURN_GAIN value changed; 160 source/project files unchanged; V4 HEX retained
+Distance constants unchanged: first944, other1300, finalnominal250/max450; finisharm0; speeds/PID/PWM/protections unchanged
+Gain=1.68637124; differential ratio=0.782608698; arc L=408.265201 R=-15.566119 center=196.349541 mm
+Arc speeds=253.671866/-9.671866, end inner=-4.835933; outer+sync=293.671866<400; after-build disabled

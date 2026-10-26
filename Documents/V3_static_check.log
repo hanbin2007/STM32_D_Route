@@ -1,0 +1,7 @@
+PASS V3: only D/gain/monitor config changed; 160 source/project files unchanged; V2 HEX retained
+PASS: monitor macro used only for its definition and stall/reverse gating; both after-build user programs disabled
+D=41.5 mm; provisional CPR=1040; circumference=130.376095 mm; mm/count=0.125361630
+Nominal straight encoder counts: 1050mm=8375.769, 1300mm=10369.999, 250mm=1994.231
+Arc goals L=412.974437 R=-20.275355 mm; center=196.349541; differential count ratio=0.899999998
+Arc speed outer=256.598 inner=-12.598 inner_end=-6.299 mm/s; monitor>5
+With synchronization, end inner target may be below monitor threshold; only nominal targets are asserted above 5 mm/s

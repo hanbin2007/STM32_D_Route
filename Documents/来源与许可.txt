@@ -1,0 +1,16 @@
+硬件来源：用户提供的 YB-DSF01-V1.0/V1.1 原理图与八路灰度模块图片。
+MCU 定时器/引脚依据：ST DS5792 与 RM0008。
+ST MCU 数据手册：https://www.st.com/resource/en/datasheet/stm32f103ze.pdf
+ST 参考手册：https://www.st.com/resource/en/reference_manual/rm0008-stm32f101xx-stm32f102xx-stm32f103xx-stm32f105xx-and-stm32f107xx-advanced-armbased-32bit-microcontrollers-stmicroelectronics.pdf
+灰度扫描方式参考 Yahboom 官方例程：
+https://www.yahboom.net/public/upload/upload-html/1763523561/Data%20reading.html
+
+HAL/CMSIS/system/startup 基础文件来自用户本地 LED_Blink 工程的 STM32Cube FW_F1 V1.8.7。
+HAL 许可保留在 Drivers/STM32F1xx_HAL_Driver/LICENSE.txt。
+CMSIS 文件保留各自文件内的版权/Apache-2.0 说明。
+电机方向、编码器方向及驱动死区参考用户购买资料包中的厂家同板例程：
+STM32_CAR源码汇总.zip / 3.Smart_Car_Course / 1.car_tracking。
+未复制、分发厂家整个项目。
+
+App、Core 外设配置及 Keil/CubeMX 工程配置为本次任务编写/适配。
+65mm 轮径和1040计数取自厂家450RPM示例，作为明确标注的占位参数，尚非用户310电机的实测规格。

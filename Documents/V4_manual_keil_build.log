@@ -1,0 +1,8 @@
+Source: human Keil GUI Rebuild, original Objects/STM32_D_Route.build_log.htm
+No CLI process exit code was observed for this manual build.
+*** Using Compiler 'V6.24', folder: 'D:\STM32_Dev\Software\Keil_v5\ARM\ARMCLANG\Bin'
+Rebuild target 'STM32_D_Route'
+Program Size: Code=18192 RO-data=608 RW-data=12 ZI-data=5396
+FromELF: creating hex file...
+".\Objects\STM32_D_Route.axf" - 0 Error(s), 0 Warning(s).
+Build Time Elapsed:  00:00:02
